@@ -1,0 +1,50 @@
+body {
+    background-color: #e0f7fa; /* Fondo claro */
+    color: #333;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.alert {
+    width: 80%;
+    max-width: 600px;
+    padding: 20px;
+    margin: 20px;
+    background-color: #c8e6c9; /* Color verde claro para éxito */
+    color: #388e3c;
+    border-radius: 12px;
+    border: 1px solid #388e3c;
+    font-size: 1.1rem;
+    text-align: center;
+    font-weight: bold;
+}
+
+.alert a {
+    color: #1E3A5F;
+    font-weight: normal;
+    text-decoration: underline;
+    transition: color 0.3s;
+}
+
+.alert a:hover {
+    color: #FFD700;
+}
+
+.alert-success {
+    background-color: #c8e6c9;
+    color: #388e3c;
+    border: 1px solid #388e3c;
+}
+
+.alert-success a {
+    color: #1E3A5F;
+}
+
+.alert-success a:hover {
+    color: #388e3c;
+}
+

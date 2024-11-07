@@ -1,0 +1,58 @@
+body {
+    background-color: #f0f4f8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+.tarjeta-card {
+    width: 600px;
+    background-color: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #d1d1d1;
+}
+
+.tarjeta-info {
+    padding: 25px;
+    background-color: #ffffff;
+    border-bottom: 1px solid #f1f1f1;
+}
+
+.tarjeta-info h5 {
+    font-weight: 600;
+    margin-bottom: 15px;
+    font-size: 20px;
+    color: #388e3c;
+}
+
+.tarjeta-info p {
+    margin: 8px 0;
+    font-size: 14px;
+    color: #333;
+}
+
+.tarjeta-qr {
+    padding: 25px;
+    background-color: #00796b;
+    color: #ffffff;
+    text-align: center;
+}
+
+.tarjeta-qr img {
+    width: 140px;
+    height: 140px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+}
+
+.tarjeta-qr small {
+    font-size: 13px;
+    font-weight: 300;
+}
